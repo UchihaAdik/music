@@ -1,0 +1,38 @@
+.ThemBtn{
+    width: 243px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    color: #D7EDFF;
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    h3{
+        margin-left: 24px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &:hover{
+        background-color: #D7EDFF;
+        color: #0E73F6;
+    }
+}
+
+.ThemBtn#light{
+    width: 243px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    color: #424242;
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    &:hover{
+        background-color: #FFFFFF;
+        color: #0E73F6;
+    }
+}
+
+
