@@ -1,0 +1,117 @@
+.Allmusic__music{
+    background-color: #424242;
+    width: 95%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+
+    .Allmusic__music_Conteinericon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .Allmusic__music_icon{
+            font-size: 20px;
+            margin: 0px 20px;
+            cursor: pointer;
+        }
+        .Allmusic__music_icon.selected{
+            color: red;
+        }
+        
+    }
+    .Allmusic__music_ConteinerImg{
+        display: flex;
+        .Allmusic__music_img{
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .Allmusic__music_title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .Allmusic__music_subtitle{
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    .Allmusic__music_timeIcon{
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        .Allmusic__music_time{
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 15px;
+        }
+        .Allmusic__music_icon{
+            font-size: 19px;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+
+
+.Allmusic__music#light{
+    background-color: #E6E6E6;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+
+    .Allmusic__music_Conteinericon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .Allmusic__music_icon{
+            font-size: 20px;
+            margin: 0px 20px;
+            color: #919191;
+        } 
+    }
+    .Allmusic__music_ConteinerImg{
+        display: flex;
+        .Allmusic__music_img{
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .Allmusic__music_title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .Allmusic__music_subtitle{
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    .Allmusic__music_timeIcon{
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        .Allmusic__music_time{
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 15px;
+        }
+        .Allmusic__music_icon{
+            font-size: 19px;
+            cursor: pointer;
+            color: #919191;
+        }
+    }
+    
+}

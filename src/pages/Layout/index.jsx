@@ -17,6 +17,7 @@ function Layout() {
         <LeftBar/>
         <div className='layout__right'>
           <div className='layout__right__topCenteiner'>
+
             <div className='layout__right__topCenteiner_Headermain'>
               <Header/>
               <Outlet/>
@@ -24,8 +25,12 @@ function Layout() {
             <div>
               <RightBar/>
             </div>
+            <div className='MusicbarLau'>
+               <Musicbar/>
+            </div>
+            
           </div>
-            <Musicbar/>
+          
         </div>
       </div>  
     </div>

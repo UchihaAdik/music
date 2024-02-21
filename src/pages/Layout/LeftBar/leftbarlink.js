@@ -16,7 +16,7 @@ export const leftbarlink =[
         link: "Playlists"
      },
      {
-        title:"Notifications",
+        title:"Favorites",
         img: faBell,
         link: "Notifications"
      },

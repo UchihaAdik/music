@@ -1,0 +1,167 @@
+.SearchApi{
+    position: relative;
+    margin-bottom: 20px;
+    .SearchApi__faMagnifyingGlass{
+        position: absolute;
+        right: 15px;
+        top: 12px;
+        font-size: 22px;
+        
+    }
+    .SearchApi_input{
+        width: 416px;
+        height: 44px;
+        border-radius: 16px;
+        background: none;
+        border: 1px solid #FFFFFF;
+        padding-left: 16px;
+        color: #FFFFFF;
+       
+    }
+    .SearchApi_input::placeholder{
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+    }
+   
+   
+}
+
+.SearchApi#light{
+    position: relative;
+    .SearchApi__faMagnifyingGlass{
+        position: absolute;
+        right: 15px;
+        top: 12px;
+        font-size: 22px;
+    }
+    .SearchApi_input{
+        width: 416px;
+        height: 44px;
+        border-radius: 16px;
+        background: none;
+        border: 1px solid #666666;
+        padding-left: 16px;
+        color: #666666;
+       
+    }
+    .SearchApi_input::placeholder{
+        color: #666666;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+
+
+.SearchApi__music{
+    background-color: #424242;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+
+    .SearchApi__music_Conteinericon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .SearchApi__music_icon{
+            font-size: 20px;
+            margin: 0px 20px;
+        } 
+    }
+    .SearchApi__music_ConteinerImg{
+        display: flex;
+        .SearchApi__music_img{
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .SearchApi__music_title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .SearchApi__music_subtitle{
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    .SearchApi__music_timeIcon{
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        .SearchApi__music_time{
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 15px;
+        }
+        .SearchApi__music_icon{
+            font-size: 19px;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+
+
+.SearchApi__music#light{
+    background-color: #E6E6E6;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+
+    .SearchApi__music_Conteinericon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .SearchApi__music_icon{
+            font-size: 20px;
+            margin: 0px 20px;
+            color: #919191;
+        } 
+    }
+    .SearchApi__music_ConteinerImg{
+        display: flex;
+        .SearchApi__music_img{
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .SearchApi__music_title{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .SearchApi__music_subtitle{
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    .SearchApi__music_timeIcon{
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        .SearchApi__music_time{
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 15px;
+        }
+        .SearchApi__music_icon{
+            font-size: 19px;
+            cursor: pointer;
+            color: #919191;
+        }
+    }
+    
+}

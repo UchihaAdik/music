@@ -11,11 +11,18 @@
         .layout__right{
             width: 1389px;
             padding-left: 24px;
+            position: relative;
             .layout__right__topCenteiner{
                 display: flex;
                 justify-content: space-between;
                 height: 90%;
        
+           }
+           .MusicbarLau{
+            position: absolute;
+            bottom: 0;
+            right: 0px;
+            left: 24px;
            }
        }
     }

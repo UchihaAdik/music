@@ -1,0 +1,193 @@
+.audio-player {
+    width: 100%;
+    height: 100px;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .ffff{
+      background-color: aqua;
+      width: 1px;
+      height: 1px;
+      display: none;
+    }
+    .audio-player__leftConteiner{
+      width: 275px;
+      height: 72px;
+      display: flex;
+      color: #FFFFFF;
+      padding: 0px 15px;
+      justify-content: space-between;
+      align-items: center;
+      .audio-player__leftConteiner_img{
+        height: 72px;
+        width: 72px;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+      .audio-player__leftConteiner_title{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .audio-player__leftConteiner_subtitle{
+        font-size: 16px;
+        font-weight: 300;
+      }
+      .audio-player__leftConteiner_iconConteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .audio-player__centerConteiner{
+      .audio-player__input{
+        width: 660px;
+        cursor: pointer;
+      }
+      
+    }
+    .audio-player__centerConteiner__top_timeConteiner{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 10px;
+      h3{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: -10px;
+      }
+    }
+    .audio-player__centerConteiner__bottom{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .audio-player__centerConteiner__icon_pause{
+        font-size: 45px;
+        margin: 0px 15px;
+        cursor: pointer;
+      }
+      .audio-player__centerConteiner__icon_lr{
+        font-size: 30px;
+        cursor: pointer;
+      }
+      .audio-player__centerConteiner__icon_faInfinity{
+        font-size: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+    }
+    .controls{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-right: 25px;
+      .controls_volume{
+        margin: 0 10px;
+        cursor: pointer;
+      }
+      
+    }
+
+}
+
+.audio-player#light{
+  width: 100%;
+  height: 100px;
+  background-color: #4285F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  icon{
+    color: #FFFFFF;
+  }
+  .ffff{
+    background-color: aqua;
+    width: 1px;
+    height: 1px;
+    display: none;
+  }
+  .audio-player__leftConteiner{
+    width: 275px;
+    height: 72px;
+    display: flex;
+    color: #FFFFFF;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    .audio-player__leftConteiner_img{
+      height: 72px;
+    }
+    .audio-player__leftConteiner_title{
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .audio-player__leftConteiner_subtitle{
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .audio-player__leftConteiner_iconConteiner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .audio-player__centerConteiner{
+    .audio-player__input{
+      width: 660px;
+    }
+  }
+  .audio-player__centerConteiner__top_timeConteiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    h3{
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: -10px;
+      color: #FFFFFF;
+    }
+  }
+  .audio-player__centerConteiner__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .audio-player__centerConteiner__icon_pause{
+      font-size: 45px;
+      margin: 0px 15px;
+      color: #FFFFFF;
+    }
+    .audio-player__centerConteiner__icon_lr{
+      font-size: 30px;
+      color: #FFFFFF;
+    }
+    .audio-player__centerConteiner__icon_faInfinity{
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+  .controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 25px;
+    .controls_volume{
+      margin: 0 10px;
+    }
+    .controls_volume_icon{
+        color: #FFFFFF;
+    }
+  }
+
+}
+  
+
+
+
+  
+  
+
+
+ 
+
+
+

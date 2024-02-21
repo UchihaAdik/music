@@ -1,0 +1,107 @@
+.PopularAlbums{
+    padding-top: 30px;
+    .PopularAlbums_titlt{
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .PopularAlbums__inerConteiner{
+        display: flex;
+        gap: 12px;
+        .PopularAlbums_list{
+            width: 260px;
+            height: 295px;
+            background-color: #424242;
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .PopularAlbums_list_inner{
+                position: relative;
+                .PopularAlbums_list_title{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .PopularAlbums_list_subTitle{
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+                .PopularAlbums_list_icon{
+                    position: absolute;
+                    right: 0px;
+                    top: 5px;
+                    font-size: 20px;
+                    &:hover{
+                        color: #FF0000;
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+            .PopularAlbums_list_inner_bottom{
+                position: relative;
+                .PopularAlbums_list_inner_bottom_titlt{
+                    font-size: 12px;
+                    font-weight: 400;
+
+                }
+                .PopularAlbums_list_inner_bottom_icon{
+                    position: absolute;
+                    right: 0px;
+                    top: -15px;
+                    font-size: 35px;
+                    &:hover{
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.PopularAlbums#light{
+
+    .PopularAlbums_titlt{
+
+    }
+    .PopularAlbums__inerConteiner{
+        .PopularAlbums_list{
+            background-color: #E6E6E6;
+            .PopularAlbums_list_inner{
+
+                .PopularAlbums_list_title{
+
+                }
+                .PopularAlbums_list_subTitle{
+
+                }
+                .PopularAlbums_list_icon{
+
+                    &:hover{
+                        color: #FF0000;
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+            .PopularAlbums_list_inner_bottom{
+
+                .PopularAlbums_list_inner_bottom_titlt{
+
+
+                }
+                .PopularAlbums_list_inner_bottom_icon{
+
+                    &:hover{
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}
